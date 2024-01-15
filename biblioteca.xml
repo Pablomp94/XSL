@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="biblio.xsl"?>
+<libreria>
+<libro>
+<titulo>Physics-based animation</titulo>
+<autor>Kenny Erleben</autor>
+<editor>Charles River Media</editor>
+<isbn>978-84-9849-2574-1</isbn>
+<precio>50.06</precio>
+<numPaginas>150</numPaginas>
+<web>http://www.google.es</web>
+<imagen>libro.jpg</imagen>
+</libro>
+<libro>
+<titulo>Principios de seguridad informática</titulo>
+<autor>Carlos Garre</autor>
+<editor>Dikinson</editor>
+<isbn>978-84-9849-9989-8</isbn>
+<precio>13</precio>
+<numPaginas>340</numPaginas>
+<web>http://www.marca.es</web>
+<imagen>libro.jpg</imagen>
+</libro>
+<libro>
+<titulo>La sombra del viento</titulo>
+<autor>Carlos Ruiz Zafón</autor>
+<editor>Dikinson</editor>
+<isbn>978-84-1452-9654-2</isbn>
+<precio>8.30</precio>
+<numPaginas>320</numPaginas>
+<web>http://www.ieslosalbares.es</web>
+<imagen>libro.jpg</imagen>
+</libro>
+<libro>
+<titulo>El nombre de la rosa</titulo>
+<autor>Umberto Eco</autor>
+<editor>Planeta</editor>
+<isbn>978-84-9849-1254-4</isbn>
+<precio>8.24</precio>
+<numPaginas>1000</numPaginas>
+<web>http://www.cieza.es</web>
+<imagen>libro.jpg</imagen>
+</libro>
+<libro>
+<titulo>Cosmos</titulo>
+<autor>Karl Sagan</autor>
+<editor>Dikinson</editor>
+<isbn>978-84-2547-7852-1</isbn>
+<precio>45.20</precio>
+<numPaginas>802</numPaginas>
+<web>http://www.cieza.net</web>
+<imagen>libro.jpg</imagen>
+</libro>
+</libreria>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="modelo.xsl"?>
+<modelos>
+<modelo altura="1,71" peso="54">
+  <nombre>Barbara</nombre>
+  <apellidos>Palvin</apellidos>
+  <edad>19</edad>
+  <nacionalidad>Hungría</nacionalidad>
+  <imagen>barbara.jpg</imagen>
+  <enlace>https://es.wikipedia.org/wiki/Barbara_Palvin</enlace>
+  <desfiles>
+    <marca>Armani</marca>
+    <marca>Pull and Bear</marca> 
+  </desfiles>
+  <mujer/>
+</modelo>
+
+<modelo altura="1,78" peso="51">
+  <nombre>Behati</nombre>
+  <apellidos>Prinsloo</apellidos>
+  <edad>26</edad>
+  <nacionalidad>Namibia</nacionalidad>
+  <imagen>behati.jpg</imagen>
+  <enlace>https://es.wikipedia.org/wiki/Behati_Prinsloo</enlace>
+  <desfiles>
+    <marca>Hugo Boss</marca>  
+    <marca>Chanel</marca> 
+    <marca>DKNY</marca> 
+  </desfiles>
+  <mujer/>
+</modelo>
+
+<modelo altura="1,75" peso="55">
+  <nombre>Lily</nombre>
+  <apellidos>Aldridge</apellidos>
+  <edad>30</edad>
+  <nacionalidad>Estados Unidos</nacionalidad>
+  <imagen>lily.jpg</imagen>
+  <enlace>https://es.wikipedia.org/wiki/Lily_Aldridge</enlace>
+  <mujer/>
+</modelo>
+
+<modelo altura="1,86" peso="73">
+  <nombre>Francisco</nombre>
+  <apellidos>Lachowski</apellidos>
+  <edad>24</edad>
+  <nacionalidad>Brasil</nacionalidad>
+  <imagen>francisco.jpg</imagen>
+  <enlace>https://es.wikipedia.org/wiki/Francisco_Lachowski</enlace>
+  <desfiles>
+    <marca>Karl Lagerfeld</marca>  
+    <marca>Dior Homme</marca>  
+    <marca>Ermenegildo Zegna</marca>  
+    <marca>Lacoste</marca>  
+  </desfiles>
+  <hombre/>
+</modelo>
+
+</modelos>

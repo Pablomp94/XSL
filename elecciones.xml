@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="eleccion.xsl"?>
+<elecciones>
+  <eleccion>
+    <tipo>Elecciones a las Cortes Valencianas</tipo>
+    <fecha>27/05/2007</fecha>
+    <resultados>
+      <partido siglas="PPCV">
+        <nombre>Partido Popular</nombre>
+        <candidato>Francisco Camps</candidato>
+        <escaños>54</escaños>
+      </partido>
+      <partido siglas="PSPV">
+        <nombre>Partido Socialista</nombre>
+        <candidato>Joan Ignasi Pla</candidato>
+        <escaños>38</escaños>
+      </partido>
+      <partido siglas="EUPV">
+        <nombre>Esquerra Unida</nombre>
+        <candidato>Gloria Marcos</candidato>
+        <escaños>7</escaños>
+      </partido>
+    </resultados>
+  </eleccion>
+  <eleccion>
+    <tipo>Elecciones a las Cortes Valencianas</tipo>
+    <fecha>22/05/2011</fecha>
+    <resultados>
+      <partido siglas="PPCV">
+        <nombre>Partido Popular</nombre>
+        <candidato>Francisco Camps</candidato>
+        <escaños>55</escaños>
+      </partido>
+      <partido siglas="PSPV">
+        <nombre>Partido Socialista</nombre>
+        <candidato>Jorge Alarte</candidato>
+        <escaños>33</escaños>
+      </partido>
+      <partido siglas="EUPV">
+        <nombre>Esquerra Unida</nombre>
+        <candidato>Marga Sanz</candidato>
+        <escaños>5</escaños>
+      </partido>
+      <partido siglas="CC">
+        <nombre>Compromís</nombre>
+        <candidato>Enric Morera</candidato>
+        <escaños>6</escaños>
+      </partido>
+    </resultados>
+  </eleccion>
+</elecciones>
