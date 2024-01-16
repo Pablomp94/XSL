@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="videojuegos.xsl" type="text/xsl"?>
+
+<videojuegos>
+
+<juego anio="1994">
+<nombre>Donkey Kong Country</nombre>
+<tipo>Aventura Gráfica</tipo>
+<edad_recomendada>3</edad_recomendada>
+<precio>29.95</precio>
+<web>https://www.nintendo.es/index.html</web>
+<caratula>donkey.jpg</caratula>
+<modo>Multijugador</modo>
+<compañia nombre="Nintendo"/>
+<plataforma>Super NES</plataforma>
+</juego>
+
+<juego anio="2015">
+<nombre>Fallout 4</nombre>
+<tipo>Rol</tipo>
+<edad_recomendada>18</edad_recomendada>
+<precio>59.95</precio>
+<web>https://www.fallout4.com/</web>
+<caratula>fallout.jpg</caratula>
+<modo>Un jugador</modo>
+<compañia nombre="Bethesda Game"/>
+<plataforma>Xbox One</plataforma>
+<plataforma>PlayStation 4</plataforma>
+</juego>
+
+
+<juego anio="1997">
+<nombre>Final fantasy VII</nombre>
+<tipo>Rol</tipo>
+<edad_recomendada>18</edad_recomendada>
+<precio>19.95</precio>
+<web>http://www.finalfantasyxv.com/es</web>
+<caratula>ff.jpg</caratula>
+<modo>Un jugador</modo>
+<compañia nombre="Square"/>
+<plataforma>Microsoft Windows</plataforma>
+<plataforma>PlayStation</plataforma>
+</juego>
+
+<juego anio="2016">
+<nombre>Fifa 17</nombre>
+<tipo>Deportes</tipo>
+<edad_recomendada>3</edad_recomendada>
+<precio>54.95</precio>
+<web>https://www.easports.com/es/fifa</web>
+<caratula>fifa.jpg</caratula>
+<modo>Multijugador</modo>
+<compañia nombre="Electronics Arts"/>
+<plataforma>Microsoft Windows</plataforma>
+<plataforma>PlayStation 4</plataforma>
+<plataforma>PlayStation 3</plataforma>
+<plataforma>Xbox One</plataforma>
+<plataforma>Xbox 360</plataforma>
+</juego>
+
+<juego anio="2015">
+<nombre>Grand Theft Auto V</nombre>
+<tipo>Accion-Aventura</tipo>
+<edad_recomendada>18</edad_recomendada>
+<precio>64.99</precio>
+<web>https://www.rockstargames.com/grandtheftauto/</web>
+<caratula>gta5.jpg</caratula>
+<modo>Multijugador</modo>
+<compañia nombre="Rockstar North"/>
+<plataforma>Microsoft Windows</plataforma>
+<plataforma>PlayStation 4</plataforma>
+<plataforma>PlayStation 3</plataforma>
+<plataforma>Xbox One</plataforma>
+<plataforma>Xbox 360</plataforma>
+</juego>
+
+
+<juego anio="2009">
+<nombre>League of Legends</nombre>
+<tipo>Multiplayer online battle arena</tipo>
+<edad_recomendada>12</edad_recomendada>
+<precio>19.99</precio>
+<web>euw.leagueoflegends.com/es</web>
+<caratula>lol.jpg</caratula>
+<modo>Multijugador</modo>
+<compañia nombre="Riot Games"/>
+<plataforma>Microsoft Windows</plataforma>
+</juego>
+
+
+<juego anio="2007">
+<nombre>Super Mario Galaxy</nombre>
+<tipo>Plataformas 3D</tipo>
+<edad_recomendada>3</edad_recomendada>
+<precio>35.95</precio>
+<web>https://www.nintendo.es/index.html</web>
+<caratula>mario.jpg</caratula>
+<modo>Multijugador</modo>
+<compañia nombre="Nintendo"/>
+<plataforma>Wii</plataforma>
+</juego>
+
+
+<juego anio="2011">
+<nombre>Minecraft</nombre>
+<tipo>Mundo abierto</tipo>
+<edad_recomendada>7</edad_recomendada>
+<precio>15.25</precio>
+<web>https://minecraft.net/</web>
+<caratula>mc.jpg</caratula>
+<modo>Multijugador</modo>
+<compañia nombre="Mojang AB"/>
+<plataforma>Microsoft Windows</plataforma>
+<plataforma>PlayStation 4</plataforma>
+<plataforma>PlayStation 3</plataforma>
+<plataforma>Xbox One</plataforma>
+<plataforma>Xbox 360</plataforma>
+</juego>
+
+
+
+<juego anio="2015">
+<nombre>Metal Gear Solid V</nombre>
+<tipo>Accion-Aventura</tipo>
+<edad_recomendada>18</edad_recomendada>
+<precio>59.95</precio>
+<web>https://www.konami.com/mg/mgs5/</web>
+<caratula>mgs.jpg</caratula>
+<modo>Multijugador</modo>
+<compañia nombre="Konami"/>
+<plataforma>Microsoft Windows</plataforma>
+<plataforma>PlayStation 4</plataforma>
+<plataforma>PlayStation 3</plataforma>
+<plataforma>Xbox One</plataforma>
+<plataforma>Xbox 360</plataforma>
+</juego>
+
+
+<juego anio="2016">
+<nombre>Nba2k17</nombre>
+<tipo>Deportes</tipo>
+<edad_recomendada>3</edad_recomendada>
+<precio>59.95</precio>
+<web>www.ea.com/es/nba</web>
+<caratula>nba.jpg</caratula>
+<modo>Multijugador</modo>
+<compañia nombre="2k Sports"/>
+<plataforma>Microsoft Windows</plataforma>
+<plataforma>PlayStation 4</plataforma>
+<plataforma>PlayStation 3</plataforma>
+<plataforma>Xbox One</plataforma>
+<plataforma>Xbox 360</plataforma>
+</juego>
+
+
+<juego anio="1999">
+<nombre>Quake Gold</nombre>
+<tipo>Disparos</tipo>
+<edad_recomendada>10</edad_recomendada>
+<precio>9.95</precio>
+<web>https://www.quakelive.com/</web>
+<caratula>quake.jpg</caratula>
+<modo>Multijugador</modo>
+<compañia nombre="id Software"/>
+<plataforma>Microsoft Windows</plataforma>
+<plataforma>PlayStation 2</plataforma>
+<plataforma>Xbox 360</plataforma>
+</juego>
+
+
+
+
+</videojuegos>

@@ -29,16 +29,26 @@
             </xsl:for-each>
 		</td>	
         <td>
-            <xsl:for-each select="/estado_cielo">
+            <xsl:for-each select="estado_cielo">
 			    <xsl:value-of select="@descripcion"/>
             </xsl:for-each>
 		</td>
         <xsl:choose>
 			<xsl:when test="viento/velocidad &gt; 20">
 				<td bgcolor="green">
-					<a href=": http://www.balneariodearchena.com/"></a>
+					<a href="http://www.balneariodearchena.com/">Archena</a>
                 </td>
             </xsl:when>
+			<xsl:when test="viento/velocidad &gt; 10">
+				<td bgcolor="orange">
+					<a href="http://www.bahiasurfsurf.wordpress.com/">Mazarrón</a>
+                </td>
+            </xsl:when>
+			<xsl:otherwise>
+				<td bgcolor="red">
+					<a href="http://www.kitecenter.es/">La Manga</a>
+                </td>
+			</xsl:otherwise>
         </xsl:choose>
 	</tr>
 	
