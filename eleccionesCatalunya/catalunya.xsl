@@ -9,13 +9,13 @@
 <body>
 <h1>Elecciones al parlamento de catalunya</h1>
 
-<xsl:for-each select="root/escrutinio_sitio/">
+<xsl:for-each select="/escrutinio_sitio/">
 
 <table>
     <tr>
         <th>Votos</th>
         <th>
-            <xsl:for-each select="root/escrutinio_sitio/contabilizados">
+            <xsl:for-each select="contabilizados">
                 <xsl:value-of select="cantidad"/>
             </xsl:for-each>
         </th>
@@ -23,7 +23,7 @@
         <th>Abstenciones</th>
 
         <th>
-            <xsl:for-each select="root/escrutinio_sitio/abstenciones">
+            <xsl:for-each select="abstenciones">
                 <xsl:value-of select="cantidad"/>
             </xsl:for-each>          
         </th>
@@ -31,7 +31,7 @@
         <th>Nulos</th>
 
         <th>
-            <xsl:for-each select="root/escrutinio_sitio/nulos">
+            <xsl:for-each select="nulos">
                 <xsl:value-of select="cantidad"/>
             </xsl:for-each>          
         </th>
@@ -39,7 +39,7 @@
         <th>Blanco</th>
 
         <th>
-            <xsl:for-each select="root/escrutinio_sitio/blancos">
+            <xsl:for-each select="blancos">
                 <xsl:value-of select="cantidad"/>
             </xsl:for-each>          
         </th>
@@ -64,7 +64,7 @@
 	
 	<tr>
 		<td>
-			<img src="${logo}" alt=""/>
+			<img src="{logo}" alt=""/>
 		</td>
 		<td>
 			<xsl:value-of select="nombre"/>
@@ -78,7 +78,6 @@
         </td>    
 
     </tr>
-    </xsl:sort>
 	</xsl:for-each>
 
 </table>
