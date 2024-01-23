@@ -1,3 +1,5 @@
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+
 <html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"/> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"/> <![endif]-->
@@ -282,15 +284,100 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-heading text-center">
-					<h2 class="to-animate">Resultados Finales</h2>					
+					<h2 class="to-animate">Resultados Finales</h2>	
 				</div>
-			</div>
 
-			<iframe src="C:\xampp\htdocs\XSL\XSL\eleccionesCatalunya\catalunya.xsl" width="100%" height="100%" style="border:1" allowfullscreen></iframe>
-			
-		</div>
-	</section>
+<xsl:template match="/">			
+					
 
+
+<table>
+    <tr>
+        <td colspan="8">Elecciones al parlamento de catalunya</td>
+    </tr>
+
+	<xsl:for-each select="/escrutinio_sitio/">
+    <tr>
+        <th>Votos</th>
+        <th>
+            <xsl:for-each select="contabilizados">
+                <xsl:value-of select="cantidad"/>
+            </xsl:for-each>
+        </th>
+
+        <th>Abstenciones</th>
+
+        <th>
+            <xsl:for-each select="abstenciones">
+                <xsl:value-of select="cantidad"/>
+            </xsl:for-each>          
+        </th>
+
+        <th>Nulos</th>
+
+        <th>
+            <xsl:for-each select="nulos">
+                <xsl:value-of select="cantidad"/>
+            </xsl:for-each>          
+        </th>
+
+        <th>Blanco</th>
+
+        <th>
+            <xsl:for-each select="blancos">
+                <xsl:value-of select="cantidad"/>
+            </xsl:for-each>          
+        </th>
+
+    </tr>
+
+	</xsl:for-each>
+    
+</table>
+
+<table>
+	<tr>
+		<th>Logotipo</th>
+		<th>Nombre</th>
+		<th>Escaños</th>
+		<th>Votos</th>
+	</tr>
+
+
+
+	<xsl:for-each select="root/escrutinio_sitio/resultados/partido">
+	<xsl:sort select="electos" order="descending"/>
+	
+	<tr>
+		<td>
+			<img src="{logo}" alt=""/>
+		</td>
+		<td>
+			<xsl:value-of select="nombre"/>
+		</td>	
+        <td>
+            <xsl:value-of select="electos"/>
+		</td>
+
+        <td>
+            <xsl:value-of select="votos_numero"/>
+        </td>    
+
+    </tr>
+	
+	</xsl:for-each>
+	
+
+</table>
+					
+	  </xsl:template>
+</xsl:stylesheet>				
+		
+
+
+</div>
+</div>
+</section>
 
 	
 	
@@ -398,3 +485,4 @@
 	<script src="js/main.js"></script>
 	</body>
   </html>
+

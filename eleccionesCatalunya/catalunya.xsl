@@ -7,11 +7,13 @@
 
 <html>
 <body>
-<h1>Elecciones al parlamento de catalunya</h1>
 
 <xsl:for-each select="/escrutinio_sitio/">
 
 <table>
+    <tr>
+        <td colspan="8">Elecciones al parlamento de catalunya</td>
+    </tr>
     <tr>
         <th>Votos</th>
         <th>
