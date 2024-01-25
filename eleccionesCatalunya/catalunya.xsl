@@ -173,6 +173,28 @@
 		text-decoration: none;
 		outline: none;
 	}
+
+	table, th, td{
+		border: solid 2px black;
+	}
+	table{
+		width: 100%;
+		margin-top: 30px
+	}
+
+	th, td{
+		text-align: center;
+		font-size: 20px
+	}
+
+	td{
+		color: black;
+	}
+
+	th{
+		color: blue;
+	}
+
 	</style>
 	<!-- End demo purposes only -->
 
@@ -291,34 +313,34 @@
 
 				<table>
     				<tr>
-        				<td colspan="8">Elecciones al parlamento de catalunya</td>
+        				<th colspan="8">Elecciones al parlamento de catalunya</th>
     				</tr>
 
-					<xsl:for-each select="/escrutinio_sitio/">
+					<xsl:for-each select="/escrutinio_sitio">
     				<tr>
         				<th>Votos</th>
         				
-						<th>
+						<td>
             				<xsl:value-of select="votos/contabilizados/cantidad"/>
-        				</th>
+        				</td>
 
         				<th>Abstenciones</th>
 
-        				<th>
+        				<td>
             				<xsl:value-of select="votos/abstenciones/cantidad"/>
-        				</th>
+        				</td>
 
         				<th>Nulos</th>
 
-        				<th>
+        				<td>
             				<xsl:value-of select="votos/nulos/cantidad"/>
-        				</th>
+        				</td>
 
         				<th>Blanco</th>
 
-        				<th>
+        				<td>
 							<xsl:value-of select="votos/blancos/cantidad"/>
-        				</th>
+        				</td>
 
     				</tr>
 
@@ -337,11 +359,12 @@
 
 
 					<xsl:for-each select="escrutinio_sitio/resultados/partido">
-					<xsl:sort select="electos" order="descending"/>
+					<xsl:sort select="partido/electos" order="descending"/>
+					<xsl:if test = "electos &gt; 1">
 	
 					<tr>
 						<td>
-							<img src="{logo}" alt=""/>
+							<img src="{logo}" width="100" height="100" alt=""/>
 						</td>
 						<td>
 							<xsl:value-of select="nombre"/>
@@ -355,9 +378,10 @@
         				</td>    
 
     				</tr>
-	
+
+					</xsl:if>
 					</xsl:for-each>
-	
+
 
 				</table>
 					
